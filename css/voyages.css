@@ -11,6 +11,15 @@
 
 /*----------------------Le header---------------------*/
 
+ul.sousMenu {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 200ms;
+}
+
+li.menuDeroulant:hover > .sousMenu {
+    max-height: 100px;
+}
 
 
 
