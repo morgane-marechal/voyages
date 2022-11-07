@@ -1,0 +1,40 @@
+/*----------------------Le tout---------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/*----------------------Le header---------------------*/
+
+
+
+
+
+
+
+
+/*----------------------Le body---------------------*/
+
+/*----------------Background---------------*/
+.container {
+    background-image: url(../images/accueil1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*----------------------Le footer---------------------*/
