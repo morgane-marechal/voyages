@@ -1,8 +1,15 @@
+#contact_form {
+    margin: auto;
+    width: 500px;
+}
+
 form {
     display: flex;
     flex-direction: column;
-    width: 500px;
-    margin: auto;
+    padding: 15px;
+    background-color: rgb(218, 209, 95);
+    border-radius: 3px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 input, select, textarea {
@@ -22,5 +29,10 @@ input, select, textarea {
 textarea {
     resize: none;
     height: 150px;
+}
+
+.small {
+    font-size: 0.7em;
+    font-style: italic;
 }
 
