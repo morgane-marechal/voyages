@@ -21,14 +21,44 @@
 /*----------------------Le body---------------------*/
 
 /*----------------Background---------------*/
-.container {
-    background-image: url(../images/accueil1.jpg);
-    background-repeat: no-repeat;
+.bcg-homepage {
+    background-image: url(../images/index_background.jpg);
     background-size: cover;
-
+    background-repeat: no-repeat;
 }
 
 
+/*----------------Bloc texte---------------*/
+
+.container {
+    height: 300px;
+    width: 350px;
+    rotate: 1.7deg;
+    margin-top: 480px;
+    margin-left: 320px;
+}
+
+.texte-calepin h2 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Marck Script', cursive;
+}
+
+#p1 {
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+#p2 {
+    margin-bottom: 30px;
+    rotate: -5deg;
+    padding-left: 35px;
+    font-size: 25px;
+    font-family: 'Marck Script', cursive;
+}
 
 
 
