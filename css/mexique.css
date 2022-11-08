@@ -1,0 +1,30 @@
+#hero img {
+    width: 100%;
+}
+
+.slider {
+    width: 1080px;
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slides {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.slides>div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 1080px;
+    background: #eee;
+    text-align: justify;
+}
+
+.slider>a {
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    position: relative;
+}
