@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    
+    <section id="contact_form">
+        <form method="post" action="traitement.php">
+            <h3>Contact</h3>
+            <div id="fullname">
+                <input type="text" name="name" id="name" placeholder="Nom*" required maxlength="50">
+                <input type="text" name="firstname" id="firstname" placeholder="Prénom*" required maxlength="50">
+            </div>
+            <input type="email" name="email" id="email" placeholder="Email*" required maxlength="100">
+            <label for="pays">* Quel pays votre message concerne-t-il ?</label>
+            <select name="pays" id="pays" required>
+                <option value="" selected>-- Pays concerné* --</option>
+                <optgroup label="Afrique">
+                    <option value="madagascar">Madagascar</option>
+                </optgroup>
+                <optgroup label="Amérique">
+                    <option value="canada">Canada</option>
+                    <option value="mexique">Mexique</option>
+                </optgroup>
+                <optgroup label="Asie">
+                    <option value="japon">Japon</option>
+                </optgroup>
+            </select>
+            <textarea name="message" id="message" placeholder="Votre message*" required maxlength="750"></textarea>
+            <input type="submit" value="Envoyer">
+            <i class="small">* Champs obligatoires</i>
+        </form>
+    </section>
+
+</body>
+</html>
