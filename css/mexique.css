@@ -1,3 +1,9 @@
+/* font-family: 'Bitter', serif;
+
+font-family: 'Mulish', sans-serif;
+
+font-family: 'Prata', serif; */
+
 #hero img {
     width: 100%;
 }
@@ -20,6 +26,7 @@
     width: 1080px;
     background: #eee;
     text-align: justify;
+    padding: 15px;
 }
 
 .slider>a {
@@ -27,4 +34,41 @@
     text-decoration: none;
     align-items: center;
     position: relative;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 20px 0px;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-weight: 700;
+}
+
+p {
+    margin: 10px 0px;
+    font-family: 'Prata', serif;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    clear: both;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin: 12px 0px;
+    font-family: 'Mulish', sans-serif;
+}
+
+#history > img {
+    width: 50%;
+}
+
+#to_see > img {
+    float: left;
+    margin: 10px 20px 10px 0px;
 }
