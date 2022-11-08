@@ -65,7 +65,7 @@ li.menuDeroulant:hover > .sousMenu {
 
 /*----------------Background---------------*/
 .container {
-    background-image: url(../images/accueil1.jpg);
+    background-image: url(../images/index_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -81,3 +81,6 @@ li.menuDeroulant:hover > .sousMenu {
 
 
 /*----------------------Le footer---------------------*/
+footer {
+  background-color: #0F0701;
+}
