@@ -29,7 +29,7 @@ ul li{
 
 }
 .navigationList li a{
-    
+
     color: #FAD494;
     font-weight: bold;
     text-decoration: none;
@@ -64,11 +64,43 @@ li.menuDeroulant:hover > .sousMenu {
 /*----------------------Le body---------------------*/
 
 /*----------------Background---------------*/
-.container {
-    background-image: url(../images/accueil1.jpg);
+.bcg-homepage {
+    background-image: url(../images/index_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
 
+
+/*----------------Bloc texte---------------*/
+
+.container {
+    height: 300px;
+    width: 350px;
+    rotate: 1.7deg;
+    margin-top: 480px;
+    margin-left: 320px;
+}
+
+.texte-calepin h2 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Marck Script', cursive;
+}
+
+#p1 {
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+#p2 {
+    margin-bottom: 30px;
+    rotate: -5deg;
+    padding-left: 35px;
+    font-size: 25px;
+    font-family: 'Marck Script', cursive;
 }
 
 
@@ -78,6 +110,37 @@ li.menuDeroulant:hover > .sousMenu {
 
 
 
-
-
 /*----------------------Le footer---------------------*/
+footer {
+  background-color: #0F0701;
+  height: 100px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  max-height: 100%;
+
+}
+
+footer ul img {
+  max-width: 20%;
+  max-height: 20%;
+}
+
+footer ul img:hover {
+  max-width: 25%;
+  max-height: 25%;
+}
+
+.FAD494 {
+  color: #FAD494;
+}
+
+.FAD494:hover {
+  color: #B97400;
+  font-size: 2.5em;
+}
