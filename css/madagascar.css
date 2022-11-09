@@ -25,6 +25,17 @@ h3 {
 
 .left-title h3{
   font-weight: bold;
+  padding-top: 10%;
+  padding-bottom: 7%;
+  padding-left: 2%;
+  text-align: left;
+  font-size: 1.6em;
+  color: #000000;
+  width: 100%;
+}
+
+.left-title1 h3{
+  font-weight: bold;
   padding-top: 1%;
   padding-bottom: 3%;
   padding-left: 2%;
@@ -129,4 +140,56 @@ h3 {
 
 .text-sub-baobab p {
   text-align: center;
+}
+
+.baobab-alley {
+  display: flex;
+  margin-left: 2%;
+  margin-right: 3%;
+  margin-top: 5%;
+}
+
+.baobab-alley img {
+  width: 65%;
+}
+
+.text-in-alley {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.text-in-alley p {
+  line-height: 2em;
+}
+
+.map {
+  display:flex;
+  flex-direction: row;
+  margin-top: 7%;
+  margin-bottom: 2%;
+/*  justify-content: center;*/
+  margin-left: 2%;
+  margin-right: 0;
+}
+
+.text-map {
+  background-color: #deb670;
+  width: 49%;
+  margin:0;
+  padding:0;
+}
+
+.text-map p {
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  color: #8c2416;
+}
+
+.text-map h3 {
+  color: #8c2416;
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 10%;
 }
