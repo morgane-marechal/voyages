@@ -20,6 +20,10 @@ main {
 	overflow: hidden;
 }
 
+#presentation-japon #blabla{
+	padding: 2% 20% 2% 10%;
+	text-align: justify;
+}
 #blabla{
 	display:  flex;
 	flex-direction: column;
@@ -141,11 +145,20 @@ main {
 }
 
 ::-webkit-scrollbar {
-    height: 6px;
+    height: 20px;
     background-color: #F5F5F5;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #3d4852;
+    background-color: #ca8d09;
     border-radius: 3px;
+	
+	
 }
+
+::-webkit-scrollbar-thumb:hover{
+	background-color: rgb(255, 196, 0);
+	
+	
+}
+
