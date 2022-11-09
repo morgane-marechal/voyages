@@ -64,6 +64,11 @@ li.menuDeroulant:hover > .sousMenu {
 /*----------------------Le body---------------------*/
 
 /*----------------Background---------------*/
+
+.main_wrapper {
+  min-height: calc(100vh - 235px);
+}
+
 .bcg-homepage {
     background-image: url(../images/index_background.jpg);
     background-repeat: no-repeat;
@@ -72,6 +77,7 @@ li.menuDeroulant:hover > .sousMenu {
 
 
 /*----------------Bloc texte---------------*/
+
 
 .container {
     height: 300px;

@@ -1,5 +1,6 @@
 #contact_form {
     margin: auto;
+    min-height: calc(100vh - 235px);
     width: 500px;
 }
 
