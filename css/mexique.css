@@ -4,14 +4,25 @@ font-family: 'Mulish', sans-serif;
 
 font-family: 'Prata', serif; */
 
-#hero img {
+#mexico_page {
+    background: linear-gradient(90deg, rgba(243,132,21,1) 0%, rgba(251,254,66,1) 100%);
+}
+
+#hero {
     width: 100%;
+    background-image: url("../images/mexique_bandeau.jpg");
+    background-size: cover;
+}
+
+#hero::after {
+    content: '';
+    display: block;
+    padding-bottom: 30%;
 }
 
 .slider {
     width: 1080px;
     text-align: center;
-    overflow: hidden;
     margin: auto;
 }
 
@@ -24,16 +35,24 @@ font-family: 'Prata', serif; */
     scroll-snap-align: start;
     flex-shrink: 0;
     width: 1080px;
-    background: #eee;
+    background-color: #ffffff70;
     text-align: justify;
     padding: 15px;
+    padding-top: 50px;
 }
 
-.slider>a {
+nav > a {
     display: inline-flex;
     text-decoration: none;
-    align-items: center;
+    color: black;
+    font-size: 1.5em;
     position: relative;
+    margin: 0px 110px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: red;
 }
 
 h1 {
@@ -60,15 +79,40 @@ h2 {
 
 h3 {
     font-size: 1.2em;
-    margin: 12px 0px;
+    padding: 12px 0px;
     font-family: 'Mulish', sans-serif;
+}
+
+#gastronomie > h3 {
+    clear: both;
 }
 
 #history > img {
     width: 50%;
 }
 
-#to_see > img {
+#to_see > img, #gastronomie img {
     float: left;
     margin: 10px 20px 10px 0px;
+    max-width: 45%;
+}
+
+nav {
+    position: sticky;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    top: 0px;
+    background: linear-gradient(90deg, rgb(0, 101, 69) 0%, rgb(247, 247, 247) 50%, rgb(200, 16, 37) 100%);
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    text-align: justify;
+    padding: 10px 0px;
+    list-style-type: circle;
+    clear: both;
 }
