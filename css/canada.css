@@ -1,0 +1,117 @@
+/*----------------------Body Canada---------------------*/
+.canada-titre {
+    background-color: #D12020;
+    color: #fff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+/*-------------Histoire---------------*/
+.photo-histoire {
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.histoire {
+    height: 200px;
+    width: 800px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    color: #D12020;
+}
+
+.histoire h2 {
+    padding-bottom: 30px;
+    text-align: center;
+    color: #D12020;
+    font-size: 30px;
+}
+
+.histoire p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: justify;
+}
+
+.histoire span {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 700px;
+}
+
+
+/*-------------Icone Erable---------------*/
+
+.icone-erable {
+    height: 50px;
+    width: auto;
+    rotate: 20deg;
+}
+
+.icone-erable:hover {
+    cursor:pointer;
+    opacity:0.7;
+}
+
+/*-------------Séparation---------------*/
+
+.barre {
+    background-color: #D12020;
+    height: 3px;
+    width: 30%;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+
+/*-------------Composition---------------*/
+
+.compo {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.compo h2 {
+    padding-bottom: 20px;
+    color: #D12020;
+
+}
+
+.compo p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.territoires ul {
+    margin-top: 100px;
+    display: inline;
+}
+
+.territoires img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+
+
+iframe {         /* afficher la carte du Canada */
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+
+
