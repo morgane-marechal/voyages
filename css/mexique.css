@@ -97,6 +97,10 @@ font-family: 'Prata', serif; */
     max-width: 45%;
 }
 
+#gastronomie #img_plats {
+    max-width: 100%;
+}
+
 #mexico_page nav {
     position: sticky;
     text-align: center;
