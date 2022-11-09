@@ -41,17 +41,32 @@ font-family: 'Prata', serif; */
     padding-top: 50px;
 }
 
-#mexico_page nav > a {
-    display: inline-flex;
+#mexico_page nav {
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    line-height: 50px;
+    top: 0px;
+    background: linear-gradient(90deg, rgb(0, 101, 69) 0%, rgb(247, 247, 247) 50%, rgb(200, 16, 37) 100%);
+}
+
+#mexico_page nav > div {
+    width: 20%;
+    text-align: center;
+}
+
+#mexico_page nav > div a {
     text-decoration: none;
     color: black;
     font-size: 1.5em;
     position: relative;
-    margin: 0px 110px;
+    transition: 500ms;
 }
 
-#mexico_page nav > a:hover {
-    text-decoration: underline;
+#mexico_page nav > div a:hover {
+    
+    font-size: 1.6em;
     color: red;
 }
 
@@ -97,14 +112,10 @@ font-family: 'Prata', serif; */
     max-width: 45%;
 }
 
-#mexico_page nav {
-    position: sticky;
-    text-align: center;
-    height: 50px;
-    line-height: 50px;
-    top: 0px;
-    background: linear-gradient(90deg, rgb(0, 101, 69) 0%, rgb(247, 247, 247) 50%, rgb(200, 16, 37) 100%);
+#gastronomie #img_plats {
+    max-width: 100%;
 }
+
 
 #mexico_page ul {
     padding-left: 20px;
