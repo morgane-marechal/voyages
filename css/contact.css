@@ -36,11 +36,16 @@ input, select, textarea {
     font-size: 1.2em;
 }
 
-.submit{
+.submit {
     border-radius: 10px;
     color:white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
     background-color: rgba(131, 66, 44);
+}
+
+.submit:hover {
+    background-color: rgb(161, 69, 53);
+    cursor: pointer;
 }
 
 #fullname {
