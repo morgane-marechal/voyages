@@ -10,7 +10,7 @@
 
 
 /*-------------Histoire---------------*/
-.photo-histoire {
+.photo-bandeau {
     width: 100vw;
     height: 300px;
     object-fit: cover;
@@ -38,7 +38,7 @@
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 10px;
     color: #D12020;
 }
 
@@ -226,7 +226,7 @@
 
 .carte {
     width: 100vw;
-    height: 310px;
+    height: 410px;
     border-top: 5px solid #D12020;
     border-bottom: 5px solid #D12020;
     z-index: 1;
@@ -235,14 +235,14 @@
 /* afficher la carte du Canada */
 iframe {         
     width: 100vw;
-    height: 300px;
+    height: 400px;
     object-fit: cover;
 }
 
 
 /* ------------ Petite faim ? ------------- */
 
-.pm1 {
+.intro-miam {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -250,6 +250,119 @@ iframe {
     font-size: 30px;
     font-family: 'Marck Script', cursive;
     rotate: -5deg;
+    padding-bottom: 150px;
+}
+
+
+.photo-bandeaumiam {
+    width: 100vw;
+    height: 450px;
+    object-fit: cover;
+    border-top: 5px solid #b93939;
+    border-bottom: 5px solid #b93939;
+}
+
+
+/* Texte à table */
+.miam {
+    width: 800px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+
+
+.miam h2 {
+    padding-bottom: 30px;
+    text-align: center;
+    color: #D12020;
+    font-size: 30px;
+}
+
+.miam p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: justify;
+}
+
+
+
+/* colonne pour la nourriture */
+
+.container-miam {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    border-color: blueviolet;
+}
+
+.poutine {
+    width: 800px;
+    height: 300px;
+
+    margin-bottom: 50px;
+}
+
+.texte-poutine {
+
+    width: 500px;
+    height: 300px;
+    float: right;
+    padding-right: 40px;
+}
+
+
+.poutine img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    float: left;
+}
+
+.poutine h3 {
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.poutine p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: justify;
+    margin-left: 30px;
+
+}
+
+details {
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: justify;
+    margin-left: 30px;
+}
+
+
+/* ------------ Expression ------------- */
+
+.fin p {
+    padding-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Marck Script', cursive;
+    rotate: -2deg;
+    margin-top: 20px;
 }
 
 
@@ -261,6 +374,7 @@ iframe {
     background-color: #D12020;
     padding-top: 50px;
     padding-bottom: 50px;
+    width: 100%;
 }
 
 .mexique .pmex1 {
