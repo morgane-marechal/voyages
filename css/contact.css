@@ -1,20 +1,37 @@
 #contact_form {
     margin: auto;
+    padding:3%;
     min-height: calc(100vh - 235px);
-    width: 500px;
+    display:flex;
+    justify-content: center;
+    background-image: url(../images/index_background.jpg);
 }
 
 form {
+    width: 500px;
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    background-color: rgb(218, 209, 95);
-    border-radius: 3px;
+    padding: 20px;
+    background-color: rgba(141, 88, 38, 0.8);
+    opacity:95%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+}
+form h3{
+    font-family: 'Marck Script', cursive;
+    font-size: 1.5em;
 }
 
+label{
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+
+}
 input, select, textarea {
     margin-bottom: 15px;
+    height:2em;
+    font-size: 1.2em;
+
 }
 
 #fullname {
