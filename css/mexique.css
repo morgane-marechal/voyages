@@ -115,6 +115,11 @@ font-family: 'Prata', serif; */
     clear: both;
 }
 
+#mexico_page img {
+    border-radius: 4px;
+    box-shadow: #101010c0 0px 5px 15px;
+}
+
 #mexico_page #history > img {
     width: 50%;
 }
