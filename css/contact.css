@@ -4,7 +4,7 @@
     min-height: calc(100vh - 235px);
     display:flex;
     justify-content: center;
-    background-image: url(../images/index_background.jpg);
+    background-image: url(../images/contact-map.jpg);
 }
 
 form {
@@ -12,7 +12,7 @@ form {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: rgba(141, 88, 38, 0.8);
+    background-color: rgba(231, 196, 131, 0.8);
     opacity:95%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 20px;
@@ -24,6 +24,7 @@ form h3{
 
 label{
     font-size: 1.2em;
+    margin-bottom: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
 
 }
@@ -31,7 +32,13 @@ input, select, textarea {
     margin-bottom: 15px;
     height:2em;
     font-size: 1.2em;
+}
 
+.submit{
+    border-radius: 10px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+    background-color: rgba(131, 66, 44);
 }
 
 #fullname {
